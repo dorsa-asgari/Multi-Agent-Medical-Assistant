@@ -1,6 +1,6 @@
 <div align="center">
  
-<h10>AI-powered multi-agentic system for medical diagnosis and assistance</h10>
+<h3>AI-powered multi-agentic system for medical diagnosis and assistance</h3>
 
 
 <!-- ![PyTorch - Version](https://img.shields.io/badge/PYTORCH-2.0+-red?style=for-the-badge&logo=pytorch) -->
