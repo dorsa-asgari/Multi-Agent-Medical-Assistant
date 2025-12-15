@@ -325,6 +325,18 @@ python ingest_rag_data.py --dir ./data/raw
 
 ---
 
+
+## Citing <a name="citing"></a>
+```
+@misc{Souvik2025,
+  Author = {Souvik Majumder},
+  Title = {Multi Agent Medical Assistant},
+  Year = {2025},
+  Howpublished = {\url{https://github.com/souvikmajumder26/Multi-Agent-Medical-Assistant}}
+}
+```
+
+---
 ## ⚖️ License  <a name="license"></a>
 This project is licensed under the **Apache-2.0 License**. See the [LICENSE](LICENSE) file for details.  
 
