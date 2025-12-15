@@ -62,9 +62,6 @@ The **Multi-Agent Medical Assistant** is an **AI-powered chatbot** designed to a
 https://github.com/user-attachments/assets/d27d4a2e-1c7d-45e2-bbc5-b3d95ccd5b35
 
 
-If you like what you see and would want to support the project's developer, you can <a href="https://www.buymeacoffee.com/souvikmajumder" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a> ! :)
-
-📂 **For an even more detailed demo video**: Check out [`Multi-Agent-Medical-Assistant-v1.9`](assets/Multi-Agent-Medical-Assistant-v1.9_Compressed.mp4). 📽️
 
 ---
 
@@ -74,32 +71,32 @@ If you like what you see and would want to support the project's developer, you 
 
 ---
 
-<!-- ## 🌟 Key Features  <a name="key-features"></a>
-✅ **Multi-Agent System** – Separate agents handle different tasks (diagnosis, retrieval, reasoning, etc.).  
-✅ **RAG-based Retrieval** – Uses Qdrant for vector search & hybrid retrieval techniques.  
-✅ **Medical Image Analysis** – Supports **brain tumor segmentation, chest X-ray disease detection, and skin lesion classification**.  
-✅ **Web Search Agent** – Fetches the latest medical research when required.  
-✅ **Confidence Score Check** – Ensures high accuracy with log probability-based verification.  
-✅ **Speech-to-Text & Text-to-Speech** – Uses **Eleven Labs API** for voice interactions.  
-✅ **Human-in-the-Loop Verification** – Medical professionals validate the AI’s results before final output.  
-✅ **Intuitive UI** – Built for seamless user experience.  
+<!-- ## Key Features  <a name="key-features"></a>
+- **Multi-Agent System** – Separate agents handle different tasks (diagnosis, retrieval, reasoning, etc.).  
+- **RAG-based Retrieval** – Uses Qdrant for vector search & hybrid retrieval techniques.  
+-  **Medical Image Analysis** – Supports **brain tumor segmentation, chest X-ray disease detection, and skin lesion classification**.  
+- **Web Search Agent** – Fetches the latest medical research when required.  
+- **Confidence Score Check** – Ensures high accuracy with log probability-based verification.  
+- **Speech-to-Text & Text-to-Speech** – Uses **Eleven Labs API** for voice interactions.  
+-  **Human-in-the-Loop Verification** – Medical professionals validate the AI’s results before final output.  
+- **Intuitive UI** – Built for seamless user experience.  
 
 ---
 
-## 🛠️ Tech Stack  <a name="tech-stack"></a>
-🔹 **Backend**: FastAPI 🚀  
-🔹 **Multi-Agent Orchestration**: LangGraph + LangChain 🤖  
-🔹 **Vector Database**: Qdrant (for retrieval-augmented generation) 🔍  
-🔹 **Medical Image Analysis**: Computer vision models (Brain Tumor - Semantic Segmentation, Chest X-ray - Object Detection, Skin Lesion - Classification) 🏥  
-🔹 **Speech Processing**: Eleven Labs API 🎙️  
-🔹 **UI**: HTML, CSS, JS 🌐  
-🔹 **Deployment**: Docker 🛠️   -->
+##  Tech Stack  <a name="tech-stack"></a>
+-  **Backend**: FastAPI  
+- **Multi-Agent Orchestration**: LangGraph + LangChain   
+- **Vector Database**: Qdrant (for retrieval-augmented generation)   
+- **Medical Image Analysis**: Computer vision models (Brain Tumor - Semantic Segmentation, Chest X-ray - Object Detection, Skin Lesion - Classification)  
+- **Speech Processing**: Eleven Labs API  
+- **UI**: HTML, CSS, JS 🌐  
+- **Deployment**: Docker    -->
 
 ## ✨ Key Features  <a name="key-features"></a>
 
-- 🤖 **Multi-Agent Architecture** : Specialized agents working in harmony to handle diagnosis, information retrieval, reasoning, and more
+-  **Multi-Agent Architecture** : Specialized agents working in harmony to handle diagnosis, information retrieval, reasoning, and more
 
-- 🔍 **Advanced Agentic RAG Retrieval System** :
+-  **Advanced Agentic RAG Retrieval System** :
 
   - Docling based parsing to extract text, tables, and images from PDFs.
   - Embedding markdown formatted text, tables and LLM based image summaries.
@@ -111,22 +108,21 @@ If you like what you see and would want to support the project's developer, you 
   - Links to source documents and images present in reference document chunks provided with reponse.
   - Confidence-based agent-to-agent handoff between RAG and Web Search to prevent hallucinations.
 
-- 🏥 **Medical Imaging Analysis**  
-  - Brain Tumor Detection (TBD)
+-  **Medical Imaging Analysis**  
   - Chest X-ray Disease Classification
   - Skin Lesion Segmentation
 
-- 🌐 **Real-time Research Integration** : Web search agent that retrieves the latest medical research papers and findings
+-  **Real-time Research Integration** : Web search agent that retrieves the latest medical research papers and findings
 
-- 📊 **Confidence-Based Verification** : Log probability analysis ensures high accuracy in medical recommendations
+-  **Confidence-Based Verification** : Log probability analysis ensures high accuracy in medical recommendations
 
-- 🎙️ **Voice Interaction Capabilities** : Seamless speech-to-text and text-to-speech powered by Eleven Labs API
+-  **Voice Interaction Capabilities** : Seamless speech-to-text and text-to-speech powered by Eleven Labs API
 
-- 👩‍⚕️ **Expert Oversight System** : Human-in-the-loop verification by medical professionals before finalizing outputs
+-  **Expert Oversight System** : Human-in-the-loop verification by medical professionals before finalizing outputs
 
-- ⚔️ **Input & Output Guardrails** : Ensures safe, unbiased, and reliable medical responses while filtering out harmful or misleading content
+-  **Input & Output Guardrails** : Ensures safe, unbiased, and reliable medical responses while filtering out harmful or misleading content
 
-- 💻 **Intuitive User Interface** : Designed for healthcare professionals with minimal technical expertise
+-  **Intuitive User Interface** : Designed for healthcare professionals with minimal technical expertise
 
 > [!NOTE]  
 > Upcoming features:
@@ -135,7 +131,7 @@ If you like what you see and would want to support the project's developer, you 
 
 ---
 
-## 🛠️ Technology Stack  <a name="technology-stack"></a>
+##  Technology Stack  <a name="technology-stack"></a>
 
 | Component | Technologies |
 |-----------|-------------|
@@ -143,8 +139,7 @@ If you like what you see and would want to support the project's developer, you 
 | 🔹 **Agent Orchestration** | LangGraph |
 | 🔹 **Document Parsing** | Docling |
 | 🔹 **Knowledge Storage** | Qdrant Vector Database |
-| 🔹 **Medical Imaging** | Computer Vision Models |
-| | • Brain Tumor: Object Detection (PyTorch) |
+| 🔹 **Medical Imaging** | Computer Vision Models | 
 | | • Chest X-ray: Image Classification (PyTorch) |
 | | • Skin Lesion: Semantic Segmentation (PyTorch) |
 | 🔹 **Guardrails** | LangChain |
@@ -154,7 +149,7 @@ If you like what you see and would want to support the project's developer, you 
 
 ---
 
-## 🚀 Installation & Setup  <a name="installation-setup"></a>
+##  Installation & Setup  <a name="installation-setup"></a>
 
 ## 📌 Option 1: Using Docker  <a name="docker-setup"></a>
 
@@ -171,12 +166,6 @@ cd Multi-Agent-Medical-Assistant
 
 ### 2️⃣ Create Environment File
 - Create a `.env` file in the root directory and add the following API keys:
-
-> [!NOTE]  
-> You may use any llm and embedding model of your choice...
-> 1. If using Azure OpenAI, no modification required.
-> 2. If using direct OpenAI, modify the llm and embedding model definitions in the 'config.py' and provide appropriate env variables.
-> 3. If using local models, appropriate code changes might be required throughout the codebase especially in 'agents'.
 
 > [!WARNING]  
 > Ensure the API keys in the `.env` file are correct and have the necessary permissions.
@@ -338,53 +327,9 @@ python ingest_rag_data.py --dir ./data/raw
 
 ---
 
-## 🧠 Usage  <a name="usage"></a>
-
-> [!NOTE]
-> 1. The first run can be jittery and may get errors - be patient and check the console for ongoing downloads and installations.
-> 2. On the first run, many models will be downloaded - yolo for tesseract ocr, computer vision agent models, cross-encoder reranker model, etc.
-> 3. Once they are completed, retry. Everything should work seamlessly since all of it is thoroughly tested.
-
-- Upload medical images for **AI-based diagnosis**. Task specific Computer Vision model powered agents - upload images from 'sample_images' folder to try out.
-- Ask medical queries to leverage **retrieval-augmented generation (RAG)** if information in memory or **web-search** to retrieve latest information.  
-- Use **voice-based** interaction (speech-to-text and text-to-speech).  
-- Review AI-generated insights with **human-in-the-loop verification**.  
-
----
-
-## 🤝 Contributions  <a name="contributions"></a>
-Contributions are welcome! Please check the [issues](https://github.com/souvikmajumder26/Multi-Agent-Medical-Assistant/issues) tab for feature requests and improvements.  
-
----
-
 ## ⚖️ License  <a name="license"></a>
 This project is licensed under the **Apache-2.0 License**. See the [LICENSE](LICENSE) file for details.  
 
 ---
 
-## 📝 Citing <a name="citing"></a>
-```
-@misc{Souvik2025,
-  Author = {Souvik Majumder},
-  Title = {Multi Agent Medical Assistant},
-  Year = {2025},
-  Publisher = {GitHub},
-  Journal = {GitHub repository},
-  Howpublished = {\url{https://github.com/souvikmajumder26/Multi-Agent-Medical-Assistant}}
-}
-```
 
----
-
-## 📬 Contact  <a name="contact"></a>
-For any questions or collaboration inquiries, reach out to **Souvik Majumder** on:  
-
-🔗 **LinkedIn**: [https://www.linkedin.com/in/souvikmajumder26](https://www.linkedin.com/in/souvikmajumder26)
-
-🔗 **GitHub**: [https://github.com/souvikmajumder26](https://github.com/souvikmajumder26)
-
-<p align="right">
- <a href="#top"><b>🔝 Return </b></a>
-</p>
-
----
