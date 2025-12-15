@@ -28,10 +28,8 @@
 - [Installation and Setup](#installation-setup)
   - [Using Docker](#docker-setup)
   - [Manual Installation](#manual-setup)
-- [Usage](#usage)
-- [Contributions](#contributions)
 - [License](#license)
-- [Citing](#citing)
+
 
 
 ----
@@ -127,7 +125,7 @@ https://github.com/user-attachments/assets/d27d4a2e-1c7d-45e2-bbc5-b3d95ccd5b35
 > [!NOTE]  
 > Upcoming features:
 > 1. Brain Tumor Medical Computer Vision model integration.
-> 2. Open to suggestions and contributions.
+
 
 ---
 
