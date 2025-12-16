@@ -56,11 +56,11 @@ The **Multi-Agent Medical Assistant** is an **AI-powered chatbot** designed to a
 
 ## 💫 Demo <a name="demo"></a>
 
-<img src="assets/Demo-first-image.jpg" width="600">
+<img src="assets/Demo-first-image.jpg" width="800">
 <br><br>
-<img src="assets/Demo-second-image.jpg" width="600">
+<img src="assets/Demo-second-image.jpg" width="800">
 <br><br>
-<img src="assets/Demo-third-image.jpg" width="600">
+<img src="assets/Demo-third-image.jpg" width="800">
 
 ---
 
