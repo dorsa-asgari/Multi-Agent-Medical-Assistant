@@ -57,15 +57,11 @@ The **Multi-Agent Medical Assistant** is an **AI-powered chatbot** designed to a
 ## 💫 Demo <a name="demo"></a>
 
 
-https://github.com/user-attachments/assets/d27d4a2e-1c7d-45e2-bbc5-b3d95ccd5b35
 
 
 
----
 
-## 🛡️ Technical Flow Chart  <a name="technical-flowchart"></a>
 
-![Technical Flow Chart](assets/final_medical_assistant_flowchart_light_rounded.png)
 
 ---
 
@@ -326,7 +322,7 @@ python ingest_rag_data.py --dir ./data/raw
 ---
 
 
-## Citing <a name="citing"></a>
+## Reference <a name="citing"></a>
 ```
 @misc{Souvik2025,
   Author = {Souvik Majumder},
@@ -335,6 +331,10 @@ python ingest_rag_data.py --dir ./data/raw
   Howpublished = {\url{https://github.com/souvikmajumder26/Multi-Agent-Medical-Assistant}}
 }
 ```
+## References
+
+- **Souvik Majumder**. *Multi-Agent Medical Assistant*. 2025.  
+  GitHub repository: https://github.com/souvikmajumder26/Multi-Agent-Medical-Assistant
 
 ---
 ## ⚖️ License  <a name="license"></a>
